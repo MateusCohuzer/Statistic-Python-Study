@@ -13,8 +13,8 @@ def get_spreadSheet(lista):
 
 
 numbers = []
-for i in range(0, 100000):
-    numbers.append(randint(0, 10))
+for i in range(0, 1000):
+    numbers.append(randint(0, 10)-randint(0, 10))
 
 df = get_spreadSheet(numbers)
 
